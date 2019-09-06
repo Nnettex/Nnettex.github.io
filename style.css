@@ -1,0 +1,144 @@
+body{
+    background-color: #000;
+    color: #ddd;
+    font-style: normal;
+    font-family: 'font awesome';
+    text-align:justify;
+}
+    .box-1{
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #444;
+        transition: 0.2s;
+        outline: none;
+        margin-top: 16px;
+        background-color: transparent;
+        position: relative;
+        padding: 10px,16px,10px,30px;
+        color:orange;
+        text-align: initial;
+         }
+         .headline span {
+             background-position: center;
+             background-size:100% 100%;
+         }
+    
+    .Contact{
+        margin: 100px 16px;
+    }
+    .Contact-title{
+        text-align:center;
+        margin-bottom: 60px;
+    }
+    .Contact-title h5{
+        color: orange;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-style: normal;
+    }
+    .form-container{
+        background: transparent;
+        max-width: 700px;
+        margin: auto;
+    }
+    .form{
+        padding-bottom: 16px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .form-name,.form-email,.form-title,.form-message{
+        position: relative
+    }
+    .form-name{
+        
+        color:#ddd;
+        font-family:"font awesome";
+        position: absolute;
+        top: 10px;
+        left: 0;
+     }
+    .form-email:{
+        
+        color:#ddd;
+        font-family: "font awesome"; 
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .form-title:{
+        
+        color: #ddd;
+        font-family: "font awesome";
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+    .form-message{
+        
+        color: #ddd;
+        font-family:"font awesome";
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: auto;
+    }
+    .form-input:focus,form textarea:focus,
+    .form-input:hover,form, textarea:hover
+    {
+        border-color: #666
+    }
+    .form text area{
+        display: block;
+         width: 300px;
+         border:1px solid gray;
+         border-bottom: 1px solid#444;
+         transition:0.2s;
+         margin-top: 16px;
+         height:150px ;
+         background-color: transparent;
+         padding:10px,16px,10px,30px;
+         color: #fff;
+         
+        }
+    .form-input{
+        display: block;
+        width: 100;
+        border: none;
+        border-bottom: 1px solid #444;
+        transition: 0.2s;
+        outline: none;
+        margin-top: 16px;
+        background-color: transparent;
+        position: relative;
+        padding: 10px,16px,10px,30px;
+        color:#fff;
+
+    }
+    .form-button{
+        margin: auto;
+        border:3px solid green;
+        transition: 0.2s;
+        padding:10px 300px;
+        outline:none;
+        margin-top:30px;
+        cursor: pointer;
+        background-color: tomato;
+        text-transform:uppercase;
+        font-size: 16px;
+        color: #000;
+        
+    }
+.centre-align{
+text-align: center;
+}
+    
+
+    
+
+
+
+
+
+
